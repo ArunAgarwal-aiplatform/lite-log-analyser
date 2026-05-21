@@ -1,0 +1,8 @@
+May 21 09:09:11 demo-server sshd[1221]: Failed password for invalid user admin from 203.0.113.8 port 54421 ssh2
+May 21 09:09:18 demo-server sshd[1221]: Failed password for invalid user admin from 203.0.113.8 port 54421 ssh2
+May 21 09:09:31 demo-server sshd[1221]: Failed password for root from 198.51.100.23 port 60211 ssh2
+May 21 09:10:09 demo-server sshd[1304]: Accepted password for ubuntu from 192.168.1.10 port 49822 ssh2
+May 21 09:11:55 demo-server sudo:   arun : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /var/log/nginx/access.log
+May 21 09:12:40 demo-server sshd[1448]: Failed password for invalid user test from 203.0.113.8 port 54422 ssh2
+May 21 09:13:02 demo-server sshd[1522]: Accepted publickey for devops from 10.0.0.8 port 50344 ssh2
+May 21 09:14:48 demo-server sshd[1661]: Failed password for invalid user elastic from 198.51.100.23 port 60219 ssh2
