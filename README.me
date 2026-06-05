@@ -1,8 +1,7 @@
-# 🪵 Lite log inspector 
+# 🪵 Lite Log Inspector
 
-A small beginner Linux project I made while learning log analysis.
-
-It takes sample logs and uses basic Linux commands to pull out useful info like top IPs, failed logins, status codes, and suspicious activity.
+A small beginner Linux project for learning log analysis with basic shell commands.  
+It reads sample logs and pulls out useful info like top IPs, failed logins, status codes, and suspicious activity.
 
 ---
 
@@ -14,9 +13,9 @@ It takes sample logs and uses basic Linux commands to pull out useful info like 
 
 ## 📁 Files
 
-- `access.log`
-- `auth.log`
-- `analysis.sh`
+- `access.log` – sample web access log  
+- `auth.log` – sample auth log  
+- `analysis.sh` – main script  
 - `.gitignore`
 
 ---
@@ -32,10 +31,15 @@ chmod +x analysis.sh
 
 ## 📤 Output
 
-A `report/` folder is created with summary files.
+A `report/` folder is created with summary files:
+
+- Top IPs  
+- Failed logins  
+- HTTP status codes  
+- Suspicious activity  
 
 ---
 
 ## 📝 Note
 
-This is a beginner project, so I kept the code simple and easy to read.
+This is a beginner project. The code is intentionally simple, clean, and easy to read while you learn log analysis on Linux.
